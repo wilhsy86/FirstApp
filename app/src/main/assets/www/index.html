@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" id="iphone-viewport" content="minimum-scale=1.0, maximum-scale=1.0, width=device-width" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<link rel="stylesheet" href="spinningwheel.css" type="text/css" media="all" />
+	<script type="text/javascript" src="spinningwheel.js?v=1.4"></script>
+
+	<title>The Pharm</title>
+
+<script type="text/javascript">
+
+
+function openDrug() {
+	var drugs = { 1: 'nitrofurantoin', 2: 'sulfamethoxazole w/trimethroprim', 3: 'amoxicillin trihydrate', 4: 'amoxicillin w/ clavulanate potassium', 5: 'cephalexin monohydrate', 6: 'clindamycin HCI', 7: 'ciproflaxin HCI', 8: 'levofloxin', 9: 'fluconazole', 10: 'nystatin', 11: 'clotrimazole w/ betamethasone dipropionate', 12: 'azithromycin dihydrate' };
+	SpinningWheel.addSlot(drugs, '', 4);
+	SpinningWheel.addSlot({1: 'Cardiovascular', 2: 'Antibiotic', 3: 'category 3', 4: 'category 4', 5: 'category 5'});
+	SpinningWheel.setCancelAction(cancel);
+	SpinningWheel.setDoneAction(done);
+	SpinningWheel.open();
+}
+
+
+function done() {
+	var results = SpinningWheel.getSelectedValues();
+	document.getElementById('result').innerHTML = 'values: ' + results.values.join(' ') + '<br />keys: ' + results.keys.join(', ');
+}
+
+function cancel() {
+	document.getElementById('result').innerHTML = 'cancelled!';
+}
+
+
+window.addEventListener('load', function(){ setTimeout(function(){ window.scrollTo(0,0); }, 100); }, true);
+
+</script>
+
+
+<style type="text/css">
+body { text-align:center; font-family:helvetica; }
+button { font-size:16px; }
+#result { margin:10px; background:#aaa; -webkit-border-radius:8px; padding:8px; font-size:18px; }
+</style>
+
+</head>
+
+<body>
+<p align="center">The Pharm.<br></p>
+<p align="center">Brute Memorization for students.</p>
+<button onclick="openDrug()">Start</button>
+<p id="result">Result</p>
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+</body>
+
+</html>
