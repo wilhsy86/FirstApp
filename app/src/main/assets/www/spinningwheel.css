@@ -101,7 +101,7 @@
 #sw-frame {
 	position:absolute; z-index:1000;
 	left:0; right:0; bottom:0;
-	height:160px;
+	height:300;
 	border-width:16px;
 	-webkit-border-image:url(file:///android_res/drawable/sw_alpha.png) 16;
 }
@@ -158,13 +158,13 @@
 	font-size:24px;
 	}
 #sw-slots-wrapper {
-	height:430px;
+	height:380px; /*changes height of slot behind sw_alpha*/
 	}
 #sw-slots div {
 	padding-top:172px;
 	}
 #sw-slots ul {
-	padding:0 0 170px 0; 
+	padding:0 0 0 0;
 	}
 #sw-slots li {
 	height:88px;

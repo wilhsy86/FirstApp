@@ -14,8 +14,9 @@
 
 function openDrug() {
 	var drugs = { 1: 'nitrofurantoin', 2: 'sulfamethoxazole w/trimethroprim', 3: 'amoxicillin trihydrate', 4: 'amoxicillin w/ clavulanate potassium', 5: 'cephalexin monohydrate', 6: 'clindamycin HCI', 7: 'ciproflaxin HCI', 8: 'levofloxin', 9: 'fluconazole', 10: 'nystatin', 11: 'clotrimazole w/ betamethasone dipropionate', 12: 'azithromycin dihydrate' };
-	SpinningWheel.addSlot(drugs, '', 4);
-	SpinningWheel.addSlot({1: 'Cardiovascular', 2: 'Antibiotic', 3: 'category 3', 4: 'category 4', 5: 'category 5'});
+	SpinningWheel.addSlot(drugs);
+	var categories = {1: 'Cardiovascular', 2: 'Antibiotic', 3: 'category 3', 4: 'category 4', 5: 'category 5'};
+	SpinningWheel.addSlot(categories);
 	SpinningWheel.setCancelAction(cancel);
 	SpinningWheel.setDoneAction(done);
 	SpinningWheel.open();
@@ -31,11 +32,9 @@ function cancel() {
 	document.getElementById('result').innerHTML = 'cancelled!';
 }
 
-
 window.addEventListener('load', function(){ setTimeout(function(){ window.scrollTo(0,0); }, 100); }, true);
 
 </script>
-
 
 <style type="text/css">
 body { text-align:center; font-family:helvetica; }
@@ -50,11 +49,6 @@ button { font-size:16px; }
 <p align="center">Brute Memorization for students.</p>
 <button onclick="openDrug()">Start</button>
 <p id="result">Result</p>
-
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-
 
 </body>
 
