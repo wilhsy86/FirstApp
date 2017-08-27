@@ -31,7 +31,7 @@ function done() {
 }
 
 function cancel() {
-	document.getElementById('result').innerHTML = 'cancelled!';
+	document.getElementById('result').innerHTML = 'Review Legend';
 }
 
 window.addEventListener('load', function(){ setTimeout(function(){ window.scrollTo(0,0); }, 100); }, true);
@@ -46,12 +46,38 @@ button { font-size:16px; }
 
 </head>
 
-<body>
+<body style="background-color:powderblue;">
 <p align="center">The Pharm.<br></p>
 <p align="center">Brute Memorization for students.</p>
 <button onclick="openDrug()">Start</button>
 <p id="result">Result</p>
 
+
+<br/><br/><br/>
+
+<div class="boxBorder" id="boxBorder">
+    <p id="boldpara" align="center" style="font-size:24px;color:black;"><b>Legend</b><br></p>
+    <p align="left-center" style="color:red;"><b>Cardiovascular</b></p>
+    <p align="left-center"  style="color:blue;"><b>Pulminary</b></p>
+    <p align="left-center"  style="color:yellow;"><b>Renal</b><br></p>
+    <p align="left-center"  style="color:brown;"><b>Gastrointestinal</b><br></p>
+    <p align="left-center"  style="color:white;"><b>Skin</b><br></p>
+    <p align="left-center"  style="color:purple;"><b>Endocrine</b><br></p>
+    <p align="left-center"  style="color:orangs;"><b>Neurology</b><br></p>
+    <p align="left-center"  style="color:green;"><b>Ear Nose & Throat</b><br></p>
+    <p align="left-center"  style="color:pink;"><b>Pain</b><br></p>
+    <p align="left-center"  style="color:grey;"><b>Pscyche</b><br></p>
+    <p align="left-center"  style="color:maroon;"><b>Musculo-Skeleton</b><br></p>
+    <p align="left-center"  style="color:aqua;"><b>Antibiotics</b><br></p>
+</div>
+
+
 </body>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<footer>
+    <p>App information Here</p>
+    <p>Contact information: <a href="mailto:someone@example.com">
+        someone@example.com</a>.</p>
+</footer>
 
 </html>
