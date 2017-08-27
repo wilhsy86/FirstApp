@@ -11,7 +11,7 @@
  */
 
 var SpinningWheel = {
-  cellHeight: 44,
+  cellHeight: 40,
 	friction: 0.003,
 	device: 'a',
 	pixelRatio: 1,
@@ -117,9 +117,9 @@ var SpinningWheel = {
 		var i, l, out, ul, div;
 
 		this.reset();	// Initialize object variables
-		if(window.devicePixelRatio>=1.5)this.pixelRatio=1.5;
-		if(window.devicePixelRatio>=2)this.pixelRatio=2;
-		this.cellHeight=44*this.pixelRatio;
+		if(window.devicePixelRatio>=1.5)this.pixelRatio=1;
+		if(window.devicePixelRatio>=2)this.pixelRatio=1;
+		this.cellHeight=40*this.pixelRatio;
 		
 		// Create the Spinning Wheel main wrapper
 		div = document.createElement('div');
@@ -285,7 +285,7 @@ var SpinningWheel = {
 				this.setPosition(i, this.slotEl[i].slotMaxScroll);
 			}
 
-			index = -Math.round(this.slotEl[i].slotYPosition / this.cellHeight);
+			index = -Math.round(this.slotEl[i].slotYPosition / this.cellHeight) -2;
 
 			count = 0;
 			for (l in this.slotData[i].values) {

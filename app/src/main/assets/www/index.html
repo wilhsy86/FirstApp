@@ -14,9 +14,11 @@
 
 function openDrug() {
 	var drugs = { 1: 'nitrofurantoin', 2: 'sulfamethoxazole w/trimethroprim', 3: 'amoxicillin trihydrate', 4: 'amoxicillin w/ clavulanate potassium', 5: 'cephalexin monohydrate', 6: 'clindamycin HCI', 7: 'ciproflaxin HCI', 8: 'levofloxin', 9: 'fluconazole', 10: 'nystatin', 11: 'clotrimazole w/ betamethasone dipropionate', 12: 'azithromycin dihydrate' };
-	SpinningWheel.addSlot(drugs);
+	SpinningWheel.addSlot(drugs , 'oneThird' , 3);
 	var categories = {1: 'Cardiovascular', 2: 'Antibiotic', 3: 'category 3', 4: 'category 4', 5: 'category 5'};
-	SpinningWheel.addSlot(categories);
+	SpinningWheel.addSlot(categories , 'oneThird' ,3);
+	var therapuetic = {1: 'use1', 2: 'use2', 3: 'use3', 4: 'use4', 5: 'use5' , 6: 'use6' , 7: 'use7'};
+	SpinningWheel.addSlot(therapuetic , 'oneThird' , 3);
 	SpinningWheel.setCancelAction(cancel);
 	SpinningWheel.setDoneAction(done);
 	SpinningWheel.open();

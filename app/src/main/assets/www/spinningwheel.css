@@ -1,3 +1,10 @@
+
+#sw-slots .sw-oneThird {
+width:33.3%;
+text-align:center
+ }
+
+
 #sw-wrapper {
 	position:absolute; z-index:1000;
 	left:0;
@@ -7,9 +14,10 @@
 	text-align:left;
 }
 
+
 #sw-header {
 	position:relative;
-	width:100%; 
+	width:100%;
 	height:43px;
 	border-top:1px solid #000; border-bottom:1px solid #000;
 	background:url(file:///android_res/drawable/sw_header.png) 0 0 repeat-x;
@@ -22,7 +30,7 @@
 	height:20px; line-height:20px;
 	padding:0 5px; margin:0;
 	border-width:5px;
-	font-size:12px; 
+	font-size:12px;
 	font-weight:bold;
 	text-shadow:rgba(0,0,0,0.8) 0 -1px 0;
 	color:#fff;
@@ -81,7 +89,7 @@
 #sw-slots div:first-child { border:0; }
 
 #sw-slots ul {
-	padding:0 0 85px 0; 
+	padding:0 0 85px 0;
 	margin:0;
 	list-style:none;
 }
@@ -101,7 +109,7 @@
 #sw-frame {
 	position:absolute; z-index:1000;
 	left:0; right:0; bottom:0;
-	height:300;
+	height:183;
 	border-width:16px;
 	-webkit-border-image:url(file:///android_res/drawable/sw_alpha.png) 16;
 }
@@ -128,7 +136,7 @@
 	padding-top:129px;
 	}
 #sw-slots ul {
-	padding:0 0 127px 0; 
+	padding:0 0 127px 0;
 	}
 #sw-slots li {
 	height:66px;
@@ -158,20 +166,20 @@
 	font-size:24px;
 	}
 #sw-slots-wrapper {
-	height:380px; /*changes height of slot behind sw_alpha*/
+	height:200px; /*changes height of slot behind sw_alpha*/
 	}
 #sw-slots div {
 	padding-top:172px;
 	}
 #sw-slots ul {
-	padding:0 0 0 0;
+	padding:0 0 170px 0;
 	}
 #sw-slots li {
-	height:88px;
-	font:bold 20px Helvetica,sans-serif;
+	height:40px; /*changes line spacing on spinner items*/
+	font:bold 15px Helvetica,sans-serif; /*changes font size on spinner items*/
 	}
 #sw-frame {
-	height:366px;
+	height:200px;   /* changes sw_alpha frame */
 	border-width:32px;
 	}
 
