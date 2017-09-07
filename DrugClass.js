@@ -79,7 +79,7 @@ var makeDrugObjects = function(colors, genericNames, brandNames, pharmClasses, t
 
 /* 
     AUTOMATED TEST for the drug object
-    where colors, genericNames etc. are files
+    where colors, genericNames etc. are arrays of strings
 */
 function testDrugs(colors, genericNames, brandNames, pharmClasses, therapeuticClasses) {
     var drugs = makeDrugObjects(colors, genericNames, brandNames, pharmClasses, therapeuticClasses);
