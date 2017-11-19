@@ -9,7 +9,6 @@
   
   drug.gradeAnswer("Pacerone", "Antiarrhythia", "Antihypertensive");
   >>>false
-  
 */
 function Drug(color, genericName, brandName, pharmClass, therapeuticClass) {
     this.color = color;
