@@ -48,13 +48,13 @@ text-align:center
 
 #sw-buttonl {
 	right:53%;
-	float:left;
-	-webkit-border-image:url(file:///android_res/drawable/transparent.png) 5;
+	float:center;
+	-webkit-border-image:url(img/sw-button-button.png) 5;
 }
 #sw-buttonr {
 	left:53%;
 	float:right;
-	-webkit-border-image:url(file:///android_res/drawable/transparent.png) 5;
+	-webkit-border-image:url(file:///android_res/drawable/sw-button-button.png) 5;
 }
 
 #sw-cancel {

@@ -1,0 +1,13 @@
+Red
+Lime
+Orange
+Brown
+Blue
+Grey
+Yellow
+Green
+Pink
+Purple
+Maroon
+White
+Black

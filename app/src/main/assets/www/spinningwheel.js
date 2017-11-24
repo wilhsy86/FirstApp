@@ -2,9 +2,9 @@
  *
  * Released under MIT license
  * http://cubiq.org/dropbox/mit-license.txt
- * 
+ *
  * Version 1.4 - Last updated: 2009.07.09
- * 
+ *
  * Horst Klier 2011.06.07
  * iOS Retina and Android HD Version using devicePixelRatio
  *
@@ -78,7 +78,7 @@ var SpinningWheel = {
 		this.swWrapper.style.top = window.innerHeight + window.pageYOffset + 'px';
 		this.calculateSlotsWidth();
 	},
-	
+
 	onScroll: function (e) {
 		this.swWrapper.style.top = window.innerHeight + window.pageYOffset + 'px';
 	},
@@ -99,7 +99,7 @@ var SpinningWheel = {
 		this.slotEl = [];
 
 		this.activeSlot = null;
-		
+
 		this.swWrapper = undefined;
 		this.swSlotWrapper = undefined;
 		this.swSlots = undefined;
@@ -120,13 +120,13 @@ var SpinningWheel = {
 		if(window.devicePixelRatio>=1.5)this.pixelRatio=1;
 		if(window.devicePixelRatio>=2)this.pixelRatio=1;
 		this.cellHeight=40*this.pixelRatio;
-		
+
 		// Create the Spinning Wheel main wrapper
 		div = document.createElement('div');
 		div.id = 'sw-wrapper';
 		div.style.top = window.innerHeight + window.pageYOffset + 'px';		// Place the SW down the actual viewing screen
 		div.style.webkitTransitionProperty = '-webkit-transform';
-		div.innerHTML = '<div id="sw-header"><div id="sw-cancel">Legend</' + 'div><div id="sw-buttonl"></' + 'div><div id="sw-buttonr"></' + 'div><div id="sw-done">Check Answer</' + 'div></' + 'div><div id="sw-slots-wrapper"><div id="sw-slots"></' + 'div></' + 'div><div id="sw-frame"></' + 'div>';
+		div.innerHTML = '<div id="sw-header"><div id="sw-cancel">Legend</' + 'div><div id="sw-buttonl">Generic Name</' + 'div><div id="sw-buttonr"></' + 'div><div id="sw-done">Check Answer</' + 'div></' + 'div><div id="sw-slots-wrapper"><div id="sw-slots"></' + 'div></' + 'div><div id="sw-frame"></' + 'div>';
 
 		document.body.appendChild(div);
 
@@ -148,27 +148,27 @@ var SpinningWheel = {
 			div = document.createElement('div');		// Create slot container
 			div.className = this.slotData[l].style;		// Add styles to the container
 			div.appendChild(ul);
-	
+
 			// Append the slot to the wrapper
 			this.swSlots.appendChild(div);
-			
+
 			ul.slotPosition = l;			// Save the slot position inside the wrapper
 			ul.slotYPosition = 0;
 			ul.slotWidth = 0;
 			ul.slotMaxScroll = this.swSlotWrapper.clientHeight - ul.clientHeight - (86*this.pixelRatio);
-			
+
 			ul.style.webkitTransitionTimingFunction = 'cubic-bezier(0, 0, 0.2, 1)';		// Add default transition
-			
+
 			this.slotEl.push(ul);			// Save the slot for later use
-			
+
 			// Place the slot to its default position (if other than 0)
 			if (this.slotData[l].defaultValue) {
-				this.scrollToValue(l, this.slotData[l].defaultValue);	
+				this.scrollToValue(l, this.slotData[l].defaultValue);
 			}
 		}
-		
+
 		this.calculateSlotsWidth();
-		
+
 		// Global events
 		document.addEventListener('touchstart', this, false);			// Prevent page scrolling
 		document.addEventListener('touchmove', this, false);			// Prevent page scrolling
@@ -183,7 +183,7 @@ var SpinningWheel = {
 
 		// Add scrolling to the slots
 		this.swFrame.addEventListener('touchstart', this, false);
-		
+
 	},
 
 	open: function () {
@@ -193,8 +193,8 @@ var SpinningWheel = {
 		this.swWrapper.style.webkitTransitionDuration = '400ms';
 		this.swWrapper.style.webkitTransform = 'translate3d(0, -'+(259*this.pixelRatio)+'px, 0)';
 	},
-	
-	
+
+
 	/**
 	 *
 	 * Unload
@@ -215,12 +215,12 @@ var SpinningWheel = {
 		document.removeEventListener('touchmove', this, false);
 		window.removeEventListener('orientationchange', this, true);
 		window.removeEventListener('scroll', this, true);
-		
+
 		this.slotData = [];
 		this.cancelAction = function () {
 			return false;
 		};
-		
+
 		this.cancelDone = function () {
 			return true;
 		};
@@ -231,17 +231,17 @@ var SpinningWheel = {
 		this.cancelButtonr = function () {
 			return true;
 		};
-		
+
 		this.reset();
-		
+
 		document.body.removeChild(document.getElementById('sw-wrapper'));
 	},
-	
+
 	close: function () {
 		this.swWrapper.style.webkitTransitionTimingFunction = 'ease-in';
 		this.swWrapper.style.webkitTransitionDuration = '400ms';
 		this.swWrapper.style.webkitTransform = 'translate3d(0, 0, 0)';
-		
+
 		this.swWrapper.addEventListener('webkitTransitionEnd', this, false);
 	},
 
@@ -256,13 +256,13 @@ var SpinningWheel = {
 		if (!style) {
 			style = '';
 		}
-		
+
 		style = style.split(' ');
 
 		for (var i = 0; i < style.length; i += 1) {
 			style[i] = 'sw-' + style[i];
 		}
-		
+
 		style = style.join(' ');
 
 		var obj = { 'values': values, 'style': style, 'defaultValue': defaultValue };

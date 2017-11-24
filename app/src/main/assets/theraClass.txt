@@ -1,0 +1,114 @@
+Therapeutic Class
+ACLS, Proarrhythmic
+ACLS, Class II and II, non selective beta blocker
+Antihypertensive
+Antihyperlipidemic
+Antihypertensive, antiangina
+Antihypertensive, BPH agent
+Antihypertensive, antianginal, BPH agent
+Antihypertensive, antianginal
+Antiarrhythmic
+Clot inhibition
+Vasodialator
+Pressor
+Clot dissolution
+Urinary antibiotic
+Sulfonamide
+3rd generation pencillin
+1st generation cephalosporin
+Other antimicrobial
+Fluoroquinolone
+Floroquinolone
+Macrolide
+Tetracycline
+Antibiotic
+2nd generation cephalosporin
+3rd generation cephalosporin
+4th generation cephalosporin
+Glycopeptides
+1st generation penicillin
+4th generation penicillin
+Quinolone
+Broad spectrum 
+Antibacterial, anti-parasitic
+Anti-malaria, anti- pneumocystis
+Leprosy
+Tuberculosis tx
+Tuberculosis, leprosy, Legionnaire's tx
+Anti CMV
+Anti herpetic
+Antiherpetic
+Anti HIV combo
+NNRTI
+NRTI
+Protease Inhibitors
+Anti influenza
+Anti hepatitis B
+Chronic hepatitis C
+Inhaled antiviral
+Carbapenem
+Migraine agent
+Agent for AD
+Antineuralgic
+Antipsychotic
+Antiepileptic
+AntiParkinson agent, dopamine agonist
+AntiParkinson agent, Dopamine agonist 
+Decarboxylase inhibitor + dopamine precursor, AntiParkinson
+AntiParkinson agent
+Cholinesterase inhibitor, AD agent
+Parietal cell inhibitor
+Antiulcer
+Gastric antisecretory
+Antidiarrheal
+Antiemetic
+Osmotic
+Stimulant
+IBD
+Stool softener
+Antiasthmatic
+SABA
+LABA
+Atypical 
+Bipolar DO
+Atypical, anitmanic
+Antianxiety
+Antidepressant
+1st generation
+Sleep
+Alcohol
+Tobacco
+ADHD
+BPH agent
+Antispasmodic
+Bladder pain relief
+ED
+Antitussive
+Antiallergy
+Glaucoma
+Motion sickness
+Cough suppression, expectorant
+Decongestant
+Analgesia
+Analgesia combo
+Antidiabetic
+Immune suppression
+Anti-inflammatory
+Anti-diabetic
+Tx of hypoglycemia
+Supplemental thyroid hormone
+Suppression of thyroid
+Gout
+RA
+Topical anti-inflammatory
+COX 2 inhibitor
+Antimetabolite antineoplastic agent
+TNF blockade
+Biologic response modification
+Acne
+Superficial BCC
+Anti-bacterials
+Topical anesthetic
+Anticoagulant
+Factor Xa inhibitor
+Heparin antagonist

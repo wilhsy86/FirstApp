@@ -1,0 +1,118 @@
+Pharmacologic Class
+Antiarrhythia
+Antiarrhythmic
+ACE inhibitor
+HMG-CoA Reductase Inhibitor
+Fibrate
+2-azetidinone
+Antilipemic, vitamin
+Antilipemic, omega 3 fatty acids
+ARB
+Beta blocker
+ACE + thiazide diuretic
+ARB + thiazide
+ACE + Ca channel blocker
+Vasodilator/nitrate
+alpha 2 adrenergic agonist
+alpha 1 blocker
+Ca channel blocker
+Loop diuretic
+Thiazide diuretic
+Potassium sparing diuretic, selective aldosterone blocker
+Potassium sparing + thiazide diuretic
+Iontropic agent
+Antiplatelet
+Nitrate
+Inotrope
+Thrombolytics
+Antibacterial
+Antibiotic + sulfonamide
+Topical antibiotic
+Antifungal
+Antifungal + corticosteroid
+Antimalarial
+Antimicrobial
+Antiparasitic, antimicrobial
+Antimycobacterial 
+Bactericidal agent
+Antiviral
+Serotonin receptor agonist
+Acetylcholinesterase
+NMDA receptor antagonist
+Anticonvulsant
+BZD
+Barbituate
+Neurologic
+PPI
+GI agent 
+H2 antagonist
+Opiate agonist
+GI prokinetic
+5 HT3 receptor antagonist
+Phenothiazine, antipsychotic
+
+H. pylori Tx + PPI
+Laxative
+DMARD
+B2 Agonist, corticosteroid
+corticosteroid
+anticholinergic
+leukotriene receptor antagonist
+B2 agonist 
+B 2 agonist
+B2 agonist, anticholinergic
+B agonist
+combination
+steroid
+Mucolytic
+Anti-inflammatory
+Antipsychotic
+Antihistamine
+SSRI
+SNRI
+Dopamine reuptake inhibitor
+Tricyclic
+Alpha 2 antagonist
+Hypnotics
+Dependence
+Stimulant
+Inhibits production of DHT
+5 alpha reductase inhibitor
+Pain relief, bladder
+Sexual dysfunction
+Antitussive
+H1 antagonist + opiod
+H 1 antagonist + codiene
+Nasal corticosteroid
+H1 antagonist
+H1 antagonist, ophth.
+B Blockers, ophth
+Miotic, ophth.
+Antitussive, expectorant
+Prostaglandin, eye
+Decongestant
+Opioid 
+Opioid
+Opioid antagonist
+Biguanide
+DPP IV Inhibitor
+Sulfonylurea
+Thiazolidinedione
+Rapid insulin
+Long insulin
+Intermediate to long insulin
+sulfonylurea + glucophage
+DPP IV inhibitor + glucophage
+GLP 1 agonists
+SGLT2 inhibitors
+Hypoglycemic tx
+Thyroid agent
+Xanthine oxidase inhibitors
+NSAID
+Blocks reabsorption of urate
+Topical clindamycin
+Topical 
+Topical
+LMWH
+Anticoagulant
+Hemostatic agent

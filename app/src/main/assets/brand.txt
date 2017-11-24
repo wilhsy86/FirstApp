@@ -1,0 +1,313 @@
+amiodarone
+sotalol HCl
+lisinopril
+ramipril
+benazepril HCl
+enalapril maleate
+simvastatin
+atorvastin calcium
+lovastatin
+pravastatin sodium
+rosuvastatin calcium
+exetimibe + simvastin
+gemfibrozil
+fenofibrate
+ezetimibe
+niacin
+omega 3 acid ethyl esters
+losartan 
+olmesartan medoxomil
+valsartan
+metoprolol tartrate
+metoprolol succinate
+atenolol
+carvedilol
+propranolol HCl
+nebivolol HCl
+lisinopril + HCTZ
+losartan potassium + HCTZ
+valsartan + HCTZ
+amlodipine besylate + benazepril HCL
+hydralazine HCl
+clonidine HCl
+terazosin HCl
+doxazosin mesylate
+amlodipine besylate 
+verapamil HCl
+nifedipine
+diltiazem HCl
+furosemide
+bumetanide
+torsemide
+hydrochlorothiazide (HCTZ)
+spironolactone
+triamterene + HCTZ
+digoxin
+clopidogrel
+eptifibatide
+acetylsalicyclic acid + dipyridamole
+labetalol
+nitroglycerin ointment
+nitroglycerin sublingual
+nitroglycerin transdermal
+dobutamine
+dopamine
+ephedrine
+midodrine
+milrinone
+alteplase
+reteplase
+streptokinase
+nitrofurantoin
+sulfamethaxazole + trimethoprim
+amoxicillin trihydrate
+amoxicillin with clavulanate potassium
+cephalexin monohydrate
+clindamycin HCl
+ciprofloxacin HCl
+levofloxacin
+azithromycin dihydrate
+doxycycline hyclate
+mupirocin
+ceflacor
+cefdinir
+ceftriazone
+cefepime
+vancomycin
+clarithromycin
+penicillin V
+ampicillin
+ampicillin + sulbactam
+piperacillin tazobactam
+moxifloxacin
+minocycline
+chloramphenicol
+linezolid
+metronidazole
+fluconazole
+amphotericin B
+nystatin
+griseofulvin
+clotrimazole + betamethasone
+terbinafine
+chloroqine
+primaquine
+dapsone
+ethambutol
+isoniazid
+rifampin
+isoniazid + rifampin + pyrazinamide
+foscarnet
+ganciclovir
+acyclovir
+famciclovir
+valacyclovir
+efavirenz + emtricitabine + tenofovir disoproxil fumarate
+lamivudine + zidovudine
+abacavir + lamivudine + zidovudine
+emtricitabine + tenofovir disoproxil fumarate
+efavirenz 
+nevirapine
+emtricitabine  
+zidovudine
+atazanavir
+fosamprenavir
+ritonavir
+saquinaivir
+amantadine
+oseltamivir
+rimantadine
+zanamivir
+interferon Alfa 2B
+peginterferon alfa 2A
+ribavirin
+meropenem
+imipenem- cilastatin
+rizatriptan
+donepezil HCl
+memantine HCl
+levetiracetam
+carbamazepine
+pregabalin
+gabapentin
+divalproex sodium
+clonazepam
+topiramate
+lamotrigine
+phenytoin sodium
+primidone
+ropinirole HCl
+pramipexole 
+carbidopa + levodopa
+benztropine mesylate
+rivastigmine
+phenobarbital
+butalbital, acetaminophen, caffeine
+rabeprazole
+pantoprazole
+omeprazole
+esomeprazole
+sucralfate
+ranitidine HCl
+famotidine
+dexlansoprazole
+diphenoxylate HCl + atropine sulfate
+promethazine HCl
+metoclopramide HCl
+ondansetron HCl
+procholorperazine
+dimenhydrinate
+scopolamine
+cimetidine
+lansoprazole + amoxicillin + clarithromycin
+lactulose
+Polyethylene glycol
+sodium phosphate
+bisacodyl
+sulfasalazine
+senna
+docusate
+fluticasone propionate + salmeterol xinafoate
+budesonide + formoterol fumarate dihydrate
+fluticasone propionate 
+tiotropium bromide
+montelukast sodium
+albuterol sulfate
+levalbuterol HCl
+ipratropium bromide + albuterol sulfate
+salmeterol
+mometasone + formoterol
+beclomethasone
+budesonide 
+acetylcyesteine
+cromolyn
+quetiapine fumerate
+aripiprazole
+risperidone
+ziprasidone HCl
+lithium carbonate
+olanzapine
+alprazolam
+lorazepam
+diazepam
+buspirone HCl
+hydroxyzine pamoate
+citalopram hydrobromide
+sertraline HCl
+fluoxetine HCl
+escitalopram oxalate
+paroxetine HCl
+duloxetine HCl
+venlafaxine HCl
+desvenlafaxine
+bupropioon HCl
+amitriptyline HCl
+doxepin HCl
+mirtazapine
+trazodone
+haloperidol
+eszopiclone
+zaleplon
+solpidem
+disulfiram
+varenicline
+dextroamphetamine + amphetamine
+atomoxetine
+clonidine
+dutasteride
+finasteride
+tamsulosin
+oxybutynin
+solifenacin
+phenazopyridine
+sildenafil
+tadalafil
+benzonatate
+chlorpheniramine + hydrocodone
+promethazine HCl + codeine
+fluticasone propionate
+hydroxyzine HCL
+azelastine HCl
+mometasone furoate monohydrate
+olopatadine HCl
+betaxolol
+pilocarpine
+desloratidine
+fexofenadine
+loratadine
+cetirizine
+chlorpheniramine
+diphenhydramine
+hydroxyzine 
+levocetrizine
+meclizine
+guaifenesin
+latanoprost
+pseudoephedrine
+oxycodone HCl
+morphine sulfate
+fentanyl
+methadone
+hydromorphone HCl
+hydrocodone + acetaminophen
+tylenol + codiene
+tramadol HCl
+meperidine
+oxycodone + acetominophen
+oxycodone + acetylsalicylic acid
+naloxone
+metformin HCl
+sitaglipitin phosphate
+glipizide
+glyburide
+glimepiride
+pioglitazone HCl
+insulin lispro
+insulin aspart
+insulin glargine
+insulin detemir
+dexamethasone
+methylprednisolone
+prednisone
+triamcinolone
+glyburide + metformin
+sitagliptin + metformin
+exenatide
+empagliflozin
+glucagon
+levothyroxine
+methimazole
+allopurinol
+hydroxychloroquine
+diclofenac sodium
+probenecid
+colchicine
+ibuprofen
+naproxen
+celecoxib
+methotrexate
+infliximab
+adalimumab
+etanercept
+meloxicam
+clindamycin
+clindamycin + benzoyl peroxide
+tretinoin
+fluorouracil
+silver sulfadiazine
+prilocaine + lidocaine
+enoxaparin
+warfarin
+rivaroxaban
+protamine
+
+
+
+
+
+
+
+
+
+
+
